@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>🎉💖 Feliz Aniversário, minha linda 💖🎉</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- TELA INICIAL -->
+  <div id="intro" class="intro-screen">
+    <div class="intro-inner">
+      <h1>💖🎉 Bem-vinda, minha linda 🎉💖</h1>
+      <p class="intro-sub">O dia em que o mundo presenciou o nascimento da mulher mais incrivel de todos os tempos! ✨</p>
+      <button id="startBtn" class="btn-primary">Clique em mim 🎁</button>
+    </div>
+  </div>
+
+  <!-- CONTEÚDO PRINCIPAL -->
+  <header class="top" aria-hidden="true">
+    <h1>🎂 Feliz Aniversário minha princesa! 🎂</h1>
+    <p class="subtitle">Hoje o dia é totalmente seu, aproveite princesa! ✨</p>
+  </header>
+
+  <main id="mainContent" class="hidden" aria-hidden="true">
+    <section id="photos" class="photo-area" aria-label="Fotos comemorativas">
+      <!-- Fotos serão inseridas via JS -->
+    </section>
+
+    <section class="envelope-area">
+      <div class="envelope-wrap">
+        <div id="envelope" class="envelope" title="Clique para abrir a surpresa"></div>
+        <div id="envelopeHint" class="envelope-hint">Clique no envelope para ver sua surpresa ✉️</div>
+        <div id="letter" class="letter" role="article" aria-live="polite">
+          <h2>Para você, neste dia tão especial ✨</h2>
+          <p>
+            Bom minha princesa, chegou seu dia! Fliz aniversario meu amor, tudo de bom para vc viu, que tu conquiste tudo que almeja e que vc seja feliz hoje e sempre, pois é merecedora! Nunca esqueça da mulher que vc é, guerreira, linda, maravilhosa...! Saiba que estarei aqui sempre que precisar viu, vc é a minha princesinha, sei que esse presente é simples, mas foi de coração! Aproveita seu dia princesa, gosto muito de vc viu!!!!!
+          </p>
+          <p class="closing"><strong>🎉 Feliz aniversário, princesa! 🎂💖</strong><br>Com todo meu carinho, sempre.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- CONFETE -->
+  <canvas id="confettiCanvas"></canvas>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+
